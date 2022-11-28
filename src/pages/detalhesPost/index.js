@@ -1,10 +1,10 @@
 import { Container } from "./styled";
 
-export default function Home() {
+export default function DetalhesPost() {
   return (
     <div>
       <Container>
-        <h1>home</h1>
+        <h1>posts</h1>
       </Container>
     </div>
   );
