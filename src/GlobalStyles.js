@@ -12,6 +12,7 @@ export const GlobalStyles = createGlobalStyle`
   border-radius: 2rem;
   padding: 1rem;
   font-weight:bold;
+  cursor: pointer;
  }
 
  * {

@@ -1,15 +1,23 @@
-import { Container, Entrar, Links } from "./styled";
+import { Container, Entrar, Links, Logo, Github,  } from "./styled";
 import Ig from "./../../assets/ig.svg";
+import github from "./../../assets/github.svg";
 import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <Container>
-    <Links>
-      <img src={Ig} alt="pais" />
-      <Link to="/">Home</Link>
-      <Link to="/postagem">Postagens</Link>
+      <Links>
+        <Logo src={Ig} alt="pais" />
+      
+        <Link to="/">
+        <h4>Home</h4></Link>
+       
+        <Link to="/postagem">
+        <h4>Postagens</h4></Link>
       </Links>
-      <Entrar>Entrar com GitHub</Entrar>
+      <Entrar>
+        <Github src={github} alt="" />
+        Entrar com GitHub
+      </Entrar>
     </Container>
   );
 }

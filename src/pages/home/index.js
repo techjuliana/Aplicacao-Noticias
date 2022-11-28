@@ -17,7 +17,7 @@ export default function Home() {
       <Container>
         <Esquerda>
           <Bemvindo>
-            <Palmas src={palmas} alt="" />
+            <Palmas src={palmas} alt="" /> 
             Ei, bem-vindo
           </Bemvindo>
           <Titulo>
