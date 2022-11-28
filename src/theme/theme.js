@@ -1,7 +1,8 @@
 export const tema = {
-  body: "#121414;",
-  buttonCard: "#1F2729;;",
-  button: "#338AF3",
+  body: "#121414",
+  cinza: "#1F2729",
+  azul: "#61DCFB",
   linha: "#A8A8B3",
   text:"#E1E1E6",
+  amarelo: "#EBA417",
 };

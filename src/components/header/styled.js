@@ -6,16 +6,14 @@ export const Container = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  padding:1rem;
+  padding: 1rem;
   justify-content: space-between;
   flex-direction: row;
+  border-bottom: 0.1rem solid ${(props) => props.theme.cinza};
 `;
 
-export const Links = styled.div`
-`;
-
+export const Links = styled.div``;
 
 export const Entrar = styled.button`
-margin:1rem;
-  background:${(props) => props.theme.buttonCard};
+  background: ${(props) => props.theme.cinza};
 `;

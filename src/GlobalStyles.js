@@ -8,6 +8,12 @@ export const GlobalStyles = createGlobalStyle`
   color: ${(props) => props.theme.text};
  }
 
+ button{
+  border-radius: 2rem;
+  padding: 1rem;
+  font-weight:bold;
+ }
+
  * {
  list-style: none;
   margin: 0;
