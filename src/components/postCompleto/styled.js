@@ -14,3 +14,26 @@ export const Postagem = styled.div`
     color: ${(props) => props.theme.cinzaClaro};
   }
 `;
+
+export const Data = styled.h4`
+  padding-bottom: 2rem;
+  color: ${(props) => props.theme.cinzaClaro};
+`;
+
+export const Paragrafo = styled.span``;
+
+export const Titulo = styled.h1`
+  margin-bottom: 3rem;
+`;
+
+export const Titulo2 = styled.h3`
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+`;
+
+export const Lista = styled.li`
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  color: ${(props) => props.theme.cinzaClaro};
+  
+`;

@@ -18,7 +18,6 @@ export const GlobalStyles = createGlobalStyle`
  }
 
  * {
- ${"" /* list-style: none; */}
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -26,6 +25,19 @@ export const GlobalStyles = createGlobalStyle`
   outline: none;
   text-decoration:none;
   color:inherit;
+}
+
+li {
+  list-style-type: none;
+  position:relative;
+  margin-bottom:0.5em;
+}
+li:before {
+  content: '•';
+  display: inline-block;
+  position: absolute;
+  left: -1em;
+  color:${(props) => props.theme.amarelo};
 }
 
 `;
