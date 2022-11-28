@@ -18,7 +18,7 @@ export const GlobalStyles = createGlobalStyle`
  }
 
  * {
- list-style: none;
+ ${"" /* list-style: none; */}
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -27,4 +27,5 @@ export const GlobalStyles = createGlobalStyle`
   text-decoration:none;
   color:inherit;
 }
+
 `;

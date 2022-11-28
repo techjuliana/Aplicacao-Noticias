@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/postagem" element={<Postagem />} />
-        <Route path="/detalhesPost/:id" element={<DetalhesPost />} />
+        <Route path="/detalhes" element={<DetalhesPost />} />
       </Routes>
     </ThemeProvider>
   );

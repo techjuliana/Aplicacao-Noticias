@@ -10,10 +10,6 @@ export const Container = styled.div`
 export const Postagem = styled.div`
   margin: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 0.1rem solid ${(props) => props.theme.cinza};
-  :hover {
-    border-bottom: 0.1rem solid ${(props) => props.theme.amarelo};
-  }
   span {
     color: ${(props) => props.theme.cinzaClaro};
   }
