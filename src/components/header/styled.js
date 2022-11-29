@@ -10,6 +10,11 @@ export const Container = styled.div`
   justify-content: space-around;
   flex-direction: row;
   border-bottom: 0.1rem solid ${(props) => props.theme.cinza};
+  @media (max-width: 800px) {
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+  }
 `;
 
 export const Github = styled.img`
@@ -33,6 +38,10 @@ export const Links = styled.div`
 export const Logo = styled.img`
   width: 8rem;
   margin-right: 3rem;
+  @media (max-width: 800px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
 `;
 
 export const Entrar = styled.button`
