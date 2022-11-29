@@ -12,6 +12,11 @@ export const Container = styled.div`
   }
 `;
 
+export const Emoji = styled.img`
+  margin-left: 5px;
+  max-height: 14px;
+`;
+
 export const LerMais = styled.div`
   display: none;
 `;

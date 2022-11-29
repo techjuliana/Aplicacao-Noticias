@@ -1,3 +1,5 @@
+
+import emoji from "./../../assets/rosto.svg"
 import {
   Container,
   Postagem,
@@ -8,6 +10,7 @@ import {
   Lista,
   LerMais,
   Botao,
+  Emoji,
 } from "./styled";
 
 export default function PostCompleto({
@@ -41,7 +44,8 @@ export default function PostCompleto({
             </ul>
           </LerMais>
           <Botao>
-            Quer continuar lendo? <span>Inscreva-se agora</span>
+            Quer continuar lendo? 
+            <span> Inscreva-se agora <Emoji src={emoji} alt="" /> </span>
           </Botao>
         </Postagem>
       </Container>
