@@ -31,6 +31,7 @@ export const Botao = styled.button`
   span {
     color: ${(props) => props.theme.amarelo};
   }
+
 `;
 
 export const Postagem = styled.div`

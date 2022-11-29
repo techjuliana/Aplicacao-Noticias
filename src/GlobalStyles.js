@@ -15,6 +15,9 @@ export const GlobalStyles = createGlobalStyle`
   padding: 1rem;
   font-weight:bold;
   cursor: pointer;
+  :hover {
+    border: 0.1rem solid ${(props) => props.theme.amarelo};
+  }
  }
 
  * {
