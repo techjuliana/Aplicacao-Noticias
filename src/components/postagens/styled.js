@@ -2,9 +2,15 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  padding: 10%;
+  justify-content: center;
+  position: relative;
+  width: 43rem;
+  margin-left: auto;
+  margin-right: auto;
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 `;
 
 export const Postagem = styled.div`
@@ -14,7 +20,18 @@ export const Postagem = styled.div`
   :hover {
     border-bottom: 0.1rem solid ${(props) => props.theme.amarelo};
   }
-  span {
+  p,
+  h4 {
     color: ${(props) => props.theme.cinzaClaro};
   }
 `;
+
+export const Data = styled.h4`
+  margin-bottom: 2rem;
+`;
+
+export const Titulo = styled.h1`
+  margin-bottom: 1rem;
+`;
+
+export const Paragrafo = styled.p``;

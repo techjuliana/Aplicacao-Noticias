@@ -1,4 +1,4 @@
-import { Container, Postagem } from "./styled";
+import { Container, Postagem, Data, Titulo, Paragrafo } from "./styled";
 
 export default function Postagens({
   data,
@@ -18,24 +18,24 @@ export default function Postagens({
     <div>
       <Container>
         <Postagem>
-          <span>{data}</span>
-          <h1>{titulo}</h1>
-          <span>{subtitulo}</span>
+          <Data>{data}</Data>
+          <Titulo>{titulo}</Titulo>
+          <Paragrafo>{subtitulo}</Paragrafo>
         </Postagem>
         <Postagem>
-          <span>{data2}</span>
-          <h1>{titulo2}</h1>
-          <span>{subtitulo2}</span>
+          <Data>{data2}</Data>
+          <Titulo>{titulo2}</Titulo>
+          <Paragrafo>{subtitulo2}</Paragrafo>
         </Postagem>
         <Postagem>
-          <span>{data3}</span>
-          <h1>{titulo3}</h1>
-          <span>{subtitulo3}</span>
+          <Data>{data3}</Data>
+          <Titulo>{titulo3}</Titulo>
+          <Paragrafo>{subtitulo3}</Paragrafo>
         </Postagem>
         <Postagem>
-          <span>{data4}</span>
-          <h1>{titulo4}</h1>
-          <span>{subtitulo4}</span>
+          <Data>{data4}</Data>
+          <Titulo>{titulo4}</Titulo>
+          <Paragrafo>{subtitulo4}</Paragrafo>
         </Postagem>
       </Container>
     </div>

@@ -3,24 +3,30 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  padding: 10%;
+  position: relative;
+  width: 43rem;
+  margin-left: auto;
+  margin-right: auto;
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 `;
 
 export const Postagem = styled.div`
   margin: 2rem;
   padding-bottom: 2rem;
-  span {
+  p,
+  li,
+  h4 {
     color: ${(props) => props.theme.cinzaClaro};
   }
 `;
 
 export const Data = styled.h4`
   padding-bottom: 2rem;
-  color: ${(props) => props.theme.cinzaClaro};
 `;
 
-export const Paragrafo = styled.span``;
+export const Paragrafo = styled.p``;
 
 export const Titulo = styled.h1`
   margin-bottom: 3rem;
@@ -34,6 +40,4 @@ export const Titulo2 = styled.h3`
 export const Lista = styled.li`
   margin-bottom: 1rem;
   margin-top: 2rem;
-  color: ${(props) => props.theme.cinzaClaro};
-  
 `;
