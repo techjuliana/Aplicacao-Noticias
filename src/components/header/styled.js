@@ -13,7 +13,8 @@ export const Container = styled.div`
 `;
 
 export const Github = styled.img`
-  margin-right: 1rem;
+  margin-right: 5px;
+  max-height: 14px;
 `;
 
 export const Links = styled.div`
@@ -35,5 +36,6 @@ export const Logo = styled.img`
 `;
 
 export const Entrar = styled.button`
+  text-align: center;
   background: ${(props) => props.theme.cinza};
 `;
