@@ -1,5 +1,5 @@
-
-import emoji from "./../../assets/rosto.svg"
+import { Link } from "react-router-dom";
+import emoji from "./../../assets/rosto.svg";
 import {
   Container,
   Postagem,
@@ -44,8 +44,10 @@ export default function PostCompleto({
             </ul>
           </LerMais>
           <Botao>
-            Quer continuar lendo? 
-            <span> Inscreva-se agora <Emoji src={emoji} alt="" /> </span>
+            Quer continuar lendo?
+            <Link to="/">
+              <span> Inscreva-se agora <Emoji src={emoji} alt="" /></span>
+            </Link>
           </Botao>
         </Postagem>
       </Container>
