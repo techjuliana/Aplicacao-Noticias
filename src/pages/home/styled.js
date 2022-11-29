@@ -2,22 +2,17 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  justify-content: center;
-  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 5rem;
   justify-content: space-evenly;
   flex-direction: row;
   span {
     color: ${(props) => props.theme.azul};
   }
-  @media (max-width: 800px) {
-    justify-content: center;
-     margin-left:30%;
-}
-
 `;
 export const Esquerda = styled.section`
-  margin: 4rem;
-  
+  margin-top: 4rem;
 `;
 
 export const Direita = styled.section``;
@@ -29,13 +24,12 @@ export const ReactImagem = styled.img`
 `;
 
 export const Palmas = styled.img`
-  margin-right:0.5rem;
+  margin-right: 0.5rem;
 `;
-
 
 export const Titulo = styled.h1`
   width: 30rem;
-  font-size: 3rem;
+  font-size: 3.4rem;
 `;
 
 export const Subtitulo = styled.p`
@@ -44,7 +38,7 @@ export const Subtitulo = styled.p`
 `;
 
 export const Bemvindo = styled.h4`
-  margin-bottom: 3rem;
+  margin-bottom: 2.4rem;
 `;
 
 export const Inscreva = styled.button`
