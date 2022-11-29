@@ -10,11 +10,6 @@ export const Container = styled.div`
   span {
     color: ${(props) => props.theme.azul};
   }
-  @media (max-width: 800px) {
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-  }
 `;
 export const Esquerda = styled.section`
   margin-top: 4rem;
@@ -35,6 +30,10 @@ export const Palmas = styled.img`
 export const Titulo = styled.h1`
   width: 30rem;
   font-size: 3.4rem;
+  @media (max-width: 800px) {
+    width: 100%;
+    font-size: 2.6rem;
+  }
 `;
 
 export const Subtitulo = styled.p`
