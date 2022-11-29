@@ -6,6 +6,8 @@ import {
   Paragrafo,
   Titulo2,
   Lista,
+  LerMais,
+  Botao,
 } from "./styled";
 
 export default function PostCompleto({
@@ -27,15 +29,20 @@ export default function PostCompleto({
           <Titulo>{titulo}</Titulo>
           <Data>{data}</Data>
           <Paragrafo>{paragrafo}</Paragrafo>
-          <Titulo2>{titulo2}</Titulo2>
-          <Paragrafo>{paragrafo2}</Paragrafo>
-          <ul>
-            <Lista>{lista1}</Lista>
-            <Lista>{lista2}</Lista>
-            <Lista>{lista3}</Lista>
-            <Lista>{lista4}</Lista>
-            <Lista>{lista5}</Lista>
-          </ul>
+          <LerMais>
+            <Titulo2>{titulo2}</Titulo2>
+            <Paragrafo>{paragrafo2}</Paragrafo>
+            <ul>
+              <Lista>{lista1}</Lista>
+              <Lista>{lista2}</Lista>
+              <Lista>{lista3}</Lista>
+              <Lista>{lista4}</Lista>
+              <Lista>{lista5}</Lista>
+            </ul>
+          </LerMais>
+          <Botao>
+            Quer continuar lendo? <span>Inscreva-se agora</span>
+          </Botao>
         </Postagem>
       </Container>
     </div>

@@ -12,6 +12,22 @@ export const Container = styled.div`
   }
 `;
 
+export const LerMais = styled.div`
+  display: none;
+`;
+
+export const Botao = styled.button`
+  z-index: 3;
+  margin-top: 2rem;
+  text-align: center;
+  background: ${(props) => props.theme.cinza};
+  width: 100%;
+  box-shadow: 0px 0px 60px 90px ${(props) => props.theme.body};
+  span {
+    color: ${(props) => props.theme.amarelo};
+  }
+`;
+
 export const Postagem = styled.div`
   margin: 2rem;
   padding-bottom: 2rem;
