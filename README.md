@@ -1,9 +1,15 @@
-## Aplicação de Noticias em ReactJS + Styled Components e Rotas.
+## Aplicação de Noticias responsivo em ReactJS + Styled Components e Rotas.
 
 <hr>
 
-### Projeto Design ⬇️
+### Projeto Design HOME ⬇️
 ![image](https://raw.githubusercontent.com/techjuliana/Aplicacao-Noticias/main/design/home.png)
+
+### Projeto Design LISTA POSTAGENS ⬇️
+![image](https://raw.githubusercontent.com/techjuliana/Aplicacao-Noticias/main/design/listaPostagens.png)
+
+### Projeto Design POSTAGEM COMPLETA ⬇️
+![image](https://raw.githubusercontent.com/techjuliana/Aplicacao-Noticias/main/design/detalhesPostagem.png)
 
 ### `npm start`
 
